@@ -1,0 +1,17 @@
+.idea
+.DS_Store
+node_modules
+dist
+yarn.lock
+
+*/**/.idea
+*/**/.DS_Store
+*/**/node_modules
+*/**/dist
+*/**/yarn.lock
+
+# Ignore test-related files
+/coverage.data
+/coverage/
+
+.env
