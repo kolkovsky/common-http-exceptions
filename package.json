@@ -1,5 +1,5 @@
 {
-  "name": "http-exceptions",
+  "name": "common-http-exceptions",
   "version": "1.0.0",
   "description": "Http Exceptions classes",
   "main": "dist/index.js",
