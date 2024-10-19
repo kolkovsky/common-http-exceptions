@@ -40,7 +40,7 @@ import { UnsupportedMediaTypeException } from "./UnsupportedMediaTypeException";
 import { UpgradeRequiredException } from "./UpgradeRequiredException";
 import { VariantAlsoNegotiatesException } from "./VariantAlsoNegotiatesException";
 
-export function factory(code): HttpException {
+export function factory(code: number): HttpException {
   switch (code) {
     case 400:
       return new BadRequestException();
